@@ -1,0 +1,374 @@
+/*================== GENERALES ================== */
+.boton-volver {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16 8 16;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #402D48;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+}
+
+.boton-volver:hover {
+    -fx-background-color: #271B2C;
+    -fx-text-fill: #7F5A8F;
+    -fx-background-radius: 8;
+}
+
+/*================== VISTA - LOGIN ==================*/
+#panel-derecha-login {
+/*    -fx-background-color: linear-gradient(to bottom right, #271B2C, #402D48, #593F64, #725181, #7F5A8F);*/
+    -fx-background-color: #121212;
+}
+
+.texto-login {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
+.boton-login {
+    -fx-background-color: #402D48;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+}
+
+.boton-login:hover {
+    -fx-background-color: #271B2C;
+    -fx-text-fill: #7F5A8F;
+    -fx-background-radius: 8;
+}
+
+/*================== VISTA - CARTELERA ==================*/
+.label-formatos-pelicula-cartelera {
+    -fx-text-fill: #bbbbbb;
+}
+
+.label-duracion-pelicula-cartelera {
+    -fx-text-fill: #888888;
+}
+
+.contenedor-pelicula-cartelera{
+    -fx-background-color: #1E1E1E;
+    -fx-background-radius: 18;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-border-radius: 12px;
+    -fx-cursor: default;
+}
+
+.contenedor-pelicula-cartelera:hover{
+    -fx-background-color: #402D48;
+    -fx-border-color: #402D48;
+    -fx-effect: dropshadow(gaussian, #271B2C, 0, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+/*================== VISTA - PELICULA==================*/
+#panel-izquierda-pelicula {
+    -fx-background-color: #1C1C1C;
+}
+
+#label-titulo-panel-izquierda-pelicula {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#label-duracion-panel-izquierda-pelicula {
+    -fx-text-fill: #bbbbbb; -fx-font-size: 14;
+}
+
+#label-descripcion-panel-izquierda-pelicula {
+    -fx-text-fill: #dddddd;
+    -fx-font-size: 14;
+}
+/*=====================================================*/
+#panel-derecha-pelicula {
+    -fx-background-color: #121212;
+}
+
+#label-horarios-panel-derecha-pelicula{
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#label-disponibilidad-panel-derecha-pelicula{
+    -fx-text-fill: #bbbbbb;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#contenedor-funciones-scroll-panel-derecha-pelicula{
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+-contenedor-fecha-panel-derecha-pelicula{
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #333333;
+    
+    -fx-pref-height: 60;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+    
+    -fx-padding: 8;
+
+}
+/* HOVER */
+.contenedor-fecha-panel-derecha-pelicula:hover {
+    -fx-background-color: #402D48;
+    -fx-border-color: #7F5A8F;
+    -fx-border-width: 0 0 3 0;
+    -fx-cursor: hand;
+}
+
+.contenedor-fecha-panel-derecha-pelicula-seleccionado {
+    -fx-background-color: #725181;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: #271B2C;
+    
+    -fx-pref-height: 60;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+     -fx-padding: 6;
+}
+
+.label-dia-panel-derecha-pelicula {
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+}
+
+.label-num-panel-derecha-pelicula {
+    -fx-text-fill: #BBBBBB;
+    -fx-font-size: 22;
+}
+
+.label-sin-funciones {
+    -fx-text-fill: #bbbbbb;
+    -fx-font-size: 16;
+}
+
+.label-formato-contenedor-funciones {
+    -fx-text-fill: #725181;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+/*boton de funcion*/
+/* Botón base */
+.boton-horario {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.boton-horario:hover {
+    -fx-background-color: #402D48;
+    -fx-border-color: #402D48;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+}
+
+/* Texto de la hora */
+.hora-horario {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 8 0;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #555;
+}
+
+.scroll-moderno .scroll-bar:vertical,
+.scroll-moderno .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+/* El fondo completo del scroll */
+.scroll-moderno .scroll-bar .track {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/* El “cuadradito” que se mueve (thumb) */
+.scroll-moderno .scroll-bar .thumb {
+    -fx-background-color: rgba(255,255,255,0.25);
+    -fx-background-radius: 8;
+}
+
+/* Hover para que parezca moderno */
+.scroll-moderno .scroll-bar .thumb:hover {
+    -fx-background-color: rgba(255,255,255,0.40);
+}
+
+/* Botones de scroll (si existen) invisibles */
+.scroll-moderno .increment-button,
+.scroll-moderno .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
+
+/*================== VISTA - SELECCIÓN DE ENTRADAS ==================*/
+#panel-derecha-entradas {
+    -fx-background-color: #121212;
+}
+
+#panel-izquierda-entradas {
+    -fx-background-color: #1C1C1C;
+}
+
+#label-titulo-panel-izquierda-entradas {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.detalle-funcion-entradas{
+    -fx-font-size: 15 px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#boton-comprar-entradas {
+    -fx-background-color: #402D48;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+}
+
+#boton-comprar-entradas:hover {
+    -fx-background-color: #271B2C;
+    -fx-text-fill: #7F5A8F;
+    -fx-background-radius: 8;
+}
+
+/*================== VISTA - SALA ==================*/
+.root-sala {
+    -fx-background-color: #121212;
+    -fx-padding: 20px;
+}
+
+#titulo-sala {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 0 0 10 0;
+    -fx-border-width: 0 0 2 0; /* Solo borde inferior */
+    -fx-border-color: #ffffff;
+    -fx-border-style: solid;
+}
+
+/* ---- PANELES ---- */
+.titulo-panel {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.contador-butacas {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+/* ---- INDICADOR PANTALLA ---- */
+.indicador-pantalla {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #121212; /* Texto oscuro para contraste */
+    -fx-background-color: #593F64; /* Fondo blanco */
+    -fx-background-radius: 5px;
+    -fx-border-color: #593F64;
+    -fx-border-width: 0px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5 0 5  0;
+    -fx-alignment: center;
+}
+
+/* ---- BUTACAS ---- */
+/*    -fx-background-color: linear-gradient(to bottom right, #271B2C, #402D48, #593F64, #725181, #7F5A8F);*/
+/* Libre (clickeable al inicio) */
+.butaca-libre {
+    -fx-background-color: #725181;      /* verde */
+    -fx-border-color: #2E7D32;
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Seleccionada por el usuario */
+.butaca-seleccionada {
+    -fx-background-color: #593F64;      /* azul */
+    -fx-border-color: #1565C0;
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Ocupada (no clickeable) */
+.butaca-ocupada {
+    -fx-background-color: #271B2C;      /* rojo */
+    -fx-border-color: #B71C1C;
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Hover para libres */
+.butaca-libre:hover {
+    -fx-background-color: #66BB6A;
+}
+
+/* Hover para seleccionadas */
+.butaca-seleccionada:hover {
+    -fx-background-color: #42A5F5;
+}
+
+
+/* BOTÓN VOLVER */
+.btn-volver {
+    -fx-background-color: #555555; /* Gris */
+    -fx-background-radius: 8px;
+    -fx-padding: 12 25 12 25;
+    -fx-font-size: 15px;
+}
+
+.btn-volver:hover {
+    -fx-background-color: #666666;
+}
+
+/* BOTÓN CANCELAR */
+.btn-cancelar {
+    -fx-background-color: #D32F2F; /* Rojo */
+    -fx-background-radius: 8px;
+    -fx-padding: 12 25 12 25;
+    -fx-font-size: 15px;
+}
+
+.btn-cancelar:hover {
+    -fx-background-color: #C62828;
+}
+
+/* BOTÓN CONTINUAR */
+.btn-continuar {
+    -fx-background-color: #2E7D32; /* Verde */
+    -fx-font-size: 15px;
+    -fx-background-radius: 8px;
+    -fx-padding: 12 25 12 25;
+}
+
+.btn-continuar:hover {
+    -fx-background-color: #1B5E20;
+}
